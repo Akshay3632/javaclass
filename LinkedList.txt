@@ -1,0 +1,72 @@
+//import java.util.*;
+import java.util.LinkedList;
+
+
+public class LinkedList{
+public static void main(String[] args){
+LinkedList<String> linkedlist = new LinkedList<>();
+LinkedList<String> linkedlist1 = new LinkedList<>();
+
+//add element 
+	LinkedList.add("akshay");
+	LinkedList.add("tanu");
+	LinkedList.add("sonu");
+  sop("element of sring");
+  sop(LinkedList);
+
+//addall method
+	
+	LinkedList1.add("javalkr");
+	LinkedList1.add("amol");
+  sop("element in second liknedlist"+LinkedList1);
+  sop("element in second liknedlist");
+   for(String name : LinkedList1){
+  sop(name);
+}
+
+//addfirst method
+LinkedList.addFirst("sam");
+  sop("element in the linkedlist");
+    for(String name : LinkedList1){
+  sop(name);
+}
+
+// addlast method
+LinkedList.addlast("Ram");
+  sop("element in the linkedlist");
+    for(String name : LinkedList){
+  sop(name);
+}
+
+//clear method
+	LinkedList.clear();
+  sop("element of linkedlist after clearing:"+LinkedList);
+    //for(){
+  //sop();
+//}
+
+//clone method
+LinkedList<String> clonedList =  (LinkedList<String>) Linkedlist.clone();
+	cloneList.add("date");
+  sop("original linkedlist"+linkedList);
+//by default
+
+  sop("cloned linkedlist"+clonedList);
+// by default
+
+// contains method
+	bolllean containstanu =LinkedList.contains("tanu");
+  sop("contains tanu:" + containstanu);
+
+//descendingIterator method
+Iterator<string> di = LinkedList.di();
+
+  sop("element in the reverse order");
+    while(di.hasNext()){
+     string name = di,next();
+  sop(name);
+}
+
+
+}
+}
